@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right, #161616,#24202e, #412e3c);
+}
+.header{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    height: 160px;
+}
+
+.portfolio{
+    margin: auto;
+    padding: 5px;
+    font-size: 55px;
+    font-style: italic;
+    color: rgb(65, 105, 167);
+    animation-name: animate;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+    0%, 
+    100%{
+        text-shadow: 0 0 30px rgb(163, 20, 20);
+    }
+    25%{
+        text-shadow: 0 0 30px rgb(148, 104, 23);
+    }
+    50%{
+        text-shadow: 0 0 30px rgb(28, 145, 28);
+    }
+    75%{
+        text-shadow: 0 0 30px rgb(25, 133, 133);
+    }
+}
+
+.image{
+    display: flex;
+}
+.image img{
+   border-radius: 82px;
+   margin-left: 20px;
+   width: 280px;
+   height: 370px;
+}
+.qoute{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(119, 85, 141);
+    text-align: center;
+    margin: 5px;
+}
+.about-me{
+    font-family: serif;
+    font-size: 20px;
+    color: rgb(119, 176, 190);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px;
+    line-height: 1.6;
+    border: 1px solid;
+    border-radius: 10%;
+}
+
+.education-page{
+    display: flex;
+    margin: 30px;
+}
+
+.education-page img{
+    border: 1px solid;
+    border-color: #704f67;
+    border-radius: 40%;
+}
+
+ol.a{
+    font-size: 15px;
+    list-style-type: circle;
+    line-height: 1.4;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.education-background{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(116, 132, 146);
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 20px;
+    line-height: 1.4;
+}
+.underline{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.skills-page{
+    display: flex;
+}
+
+.skills-page img{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 18px;
+    border-radius: 30%;
+    filter: grayscale(90%);
+    border-right: 1px solid;
+    border-color: #704f67;
+}
+
+.skills{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(116, 132, 146);
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.achievements-page{
+    display: flex;
+}
+
+.achievements-page img{
+    margin-right: 20px;
+    padding: 20px;
+    border-top:1px solid;
+    border-color: #704f67;
+    border-radius: 11%;
+}
+
+.achievements{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(160, 169, 177);
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 1.6;
+}
+
+.contact-page{
+    display: flex;
+    margin: 30px;
+    color: beige;
+    max-height: 250px;
+    border: 3px solid;
+    border-color: #704f67;
+    flex-direction: column;
+}
+
+.contact-me{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant-caps: all-small-caps;
+    color: rgb(85, 153, 216);
+    height: 80px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.email-address{
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0.3;
+    color:rgb(115, 173, 226);
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+}
+
+.facebook img{
+    vertical-align: center;
+}
+
+a:link, a:visited{
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+    color: rgb(115, 173, 226);
+}
